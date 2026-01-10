@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
 
-## Project info
+# Galeria de Fotos
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Este é um projeto de galeria de fotos desenvolvido como uma aplicação web moderna e responsiva. Ele permite que os usuários visualizem, pesquisem e filtrem imagens de forma interativa.
 
-## How can I edit this code?
+## Deploy
 
-There are several ways of editing your application.
+A aplicação está disponível para acesso em:
+[https://galeria-de-fotos-h3q2mctog-leonardof108s-projects.vercel.app/](https://galeria-de-fotos-h3q2mctog-leonardof108s-projects.vercel.app/)
 
-**Use Lovable**
+## Funcionalidades
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Visualização em Grid**: As fotos são exibidas em um layout de grade limpo e organizado.
+- **Busca em Tempo Real**: Filtre as fotos instantaneamente digitando no campo de busca.
+- **Design Responsivo**: A galeria se adapta a diferentes tamanhos de tela, de desktops a dispositivos móveis.
+- **Tema Claro e Escuro**: Alterne entre os modos de visualização para maior conforto visual.
+- **Efeitos de Interação**: Efeitos sutis de hover nas imagens para uma melhor experiência do usuário.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tecnologias Utilizadas
 
-**Use your preferred IDE**
+Este projeto foi construído com as seguintes tecnologias:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **Vite**: Ferramenta de build para desenvolvimento frontend moderno.
+- **TypeScript**: Superset de JavaScript que adiciona tipagem estática.
+- **Tailwind CSS**: Framework CSS utility-first para estilização.
+- **shadcn/ui**: Componentes de UI reusáveis construídos com Radix UI e Tailwind CSS.
+- **Lucide React**: Biblioteca de ícones.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Como Executar Localmente
 
-Follow these steps:
+Para executar o projeto em seu ambiente de desenvolvimento, siga os passos abaixo:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **Clone o repositório:**
+   ```bash
+   git clone <url-do-repositorio>
+   cd galeria-de-fotos
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+   ou
+   ```bash
+   yarn install
+   ```
+   ou
+   ```bash
+   bun install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+   ou
+   ```bash
+   yarn dev
+   ```
+   ou
+   ```bash
+   bun dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+4. **Abra o navegador:**
+   Acesse `http://localhost:5173` (ou a porta indicada no terminal) para visualizar a aplicação.
+
+
+## Estrutura do Projeto
+
+A estrutura de pastas do projeto está organizada da seguinte forma:
+
+```
+/
+├── public/               # Arquivos estáticos
+├── src/
+│   ├── components/       # Componentes React
+│   │   ├── ui/           # Componentes do shadcn/ui
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── PhotoCard.tsx
+│   │   └── ...
+│   ├── data/             # Dados estáticos (fotos)
+│   ├── hooks/            # Hooks customizados
+│   ├── lib/              # Funções utilitárias
+│   ├── pages/            # Páginas da aplicação
+│   ├── App.tsx           # Componente principal
+│   └── main.tsx          # Ponto de entrada da aplicação
+├── package.json
+└── ...
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2026 Galeria de Fotos. Todos os direitos reservados.
