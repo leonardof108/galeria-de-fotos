@@ -6,7 +6,7 @@ Este é um projeto de galeria de fotos desenvolvido como uma aplicação web mod
 ## Deploy
 
 A aplicação está disponível para acesso em:
-[https://galeria-de-fotos-h3q2mctog-leonardof108s-projects.vercel.app/](https://galeria-de-fotos-h3q2mctog-leonardof108s-projects.vercel.app/)
+[https://galeria-de-fotos-inky.vercel.app](https://galeria-de-fotos-inky.vercel.app)
 
 ## Funcionalidades
 
@@ -33,7 +33,7 @@ Para executar o projeto em seu ambiente de desenvolvimento, siga os passos abaix
 
 1. **Clone o repositório:**
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/leonardof108/galeria-de-fotos.git
    cd galeria-de-fotos
    ```
 
